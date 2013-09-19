@@ -82,3 +82,7 @@ diaspora.iml
 
 # Dolphin's directory's preferences files
 *.directory
+
+#Added
+public/download
+public/winwinlinux/

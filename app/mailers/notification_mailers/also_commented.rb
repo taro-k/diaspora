@@ -13,6 +13,7 @@ module NotificationMailers
         else
           @headers[:subject] = I18n.t("notifier.also_commented.limited_subject")
         end
+        @headers[:subject] = "[Diaspora-Japan] You've got a comment"
       end
     end
 
