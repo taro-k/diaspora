@@ -1,7 +1,7 @@
 <% if @notification.post.public? %>
-<%= post_message(@notification.post, :process_newlines => true) %>
+<%#= post_message(@notification.post, :process_newlines => true) %>
 <% else %>
-<%= t('notifier.mentioned.limited_post') %>
+<%#= t('notifier.mentioned.limited_post') %>
 <% end %>
 
 [<%= t('notifier.comment_on_post.reply', :name => @notification.post_author_name) %>][1]
