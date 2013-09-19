@@ -99,6 +99,7 @@ Diaspora::Application.routes.draw do
 
   controller :users do
     get 'public/:username'          => :public,           :as => 'users_public'
+    #match 'getting_started'         => :getting_started_completed,  :as => 'getting_started_completed'
     match 'getting_started'         => :getting_started,  :as => 'getting_started'
     match 'privacy'                 => :privacy_settings, :as => 'privacy_settings'
     get 'getting_started_completed' => :getting_started_completed

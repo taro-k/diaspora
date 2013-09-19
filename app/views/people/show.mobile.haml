@@ -14,6 +14,7 @@
         = @person.name
       %span.description
         = @person.diaspora_handle
+      = aspect_membership_dropdown(@contact, @person, 'right') 
 
 .span12
   - if @stream.stream_posts.length > 0
