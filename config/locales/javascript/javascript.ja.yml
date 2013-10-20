@@ -36,6 +36,7 @@ ja:
     failed_to_post_message: "メッセージの投稿に失敗しました!"
     getting_started:
       hey: "Hey, {{name}}!"
+      no_tags: "タグは後から追加できます。"
       preparing_your_stream: "Preparing your personialized stream..."
     header:
       close: "閉じる"

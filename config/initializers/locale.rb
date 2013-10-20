@@ -11,6 +11,7 @@ if settings_file.exist?
   AVAILABLE_LANGUAGES = (locale_settings['available'].length > 0) ? locale_settings['available'] : { "en" => 'English' }
   AVAILABLE_LANGUAGE_CODES = locale_settings['available'].keys
   DEFAULT_LANGUAGE = "ja"
+  #DEFAULT_LANGUAGE = (AVAILABLE_LANGUAGE_CODES.include?(locale_settings['default'].to_s)) ? locale_settings['default'].to_s : "ja"
   #DEFAULT_LANGUAGE = (AVAILABLE_LANGUAGE_CODES.include?(locale_settings['default'].to_s)) ? locale_settings['default'].to_s : "en"
   LANGUAGE_CODES_MAP = locale_settings['fallbacks']
   RTL_LANGUAGES = locale_settings['rtl']
