@@ -591,9 +591,9 @@ ja:
       unhappy: "何かご不満ですか。"
       update: "更新"
     new:
-      hey_make: "Welcome to"
-      diaspora: "Diaspora-Japan（ディアスポラ・ジャパン）"
-      continue: "登録"
+#      hey_make: "Welcome to"
+#      diaspora: "Diaspora-Japan（ディアスポラ・ジャパン）"
+#      continue: "登録"
       create_my_account: "Create my account"
       email: "メール"
       enter_email: "メールアドレスを入力してください。"
@@ -822,7 +822,7 @@ ja:
       your_handle: "ダイアスポラのユーザ名"
     getting_started:
       well_hello_there: "Welcome to Diaspora-Japan!"
-      community_welcome: "【お願い】Diaspora-Japanからの通知メールが迷惑メールに分類されることがあるのでご注意下さい。"
+      community_welcome: "【お願い】通知メールが迷惑メールに分類されることがあるのでご注意下さい。"
       awesome_take_me_to_diaspora: "Start!"
       connect_to_facebook_link: "Facebookアカウントとの連携"
       hashtag_explanation: "興味のあるハッシュタグをフォローしよう。これは後から設定できるのでここでは省略できます。"
