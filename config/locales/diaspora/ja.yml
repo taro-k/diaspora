@@ -415,7 +415,23 @@ ja:
       subject: "Please activate your new e-mail address %{unconfirmed_email}"
     email_sent_by_diaspora: "このEメールは%{pod_name}から送信されました。もしこのようなEメールの受信を拒否したい場合は、"
     hello: "%{name}さん、こんにちは！"
-    invited_you: "%{name}さんがダイアスポラ*に招待しています。"
+    invited_you: "%{name}さんからの招待状"
+    invite:
+      message: |-
+        Hello!
+
+        あなたは diaspora* に招待されています!
+
+        以下のリンクをクリックしてユーザー登録して下さい。
+
+        [%{invite_url}][1]
+
+
+        Love,
+
+        diaspora* からの自動送信メール
+
+        [1]: %{invite_url}
     liked:
       liked: "%{name} has just liked your post: "
       view_post: "投稿を見る >"
