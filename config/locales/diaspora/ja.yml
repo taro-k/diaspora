@@ -591,8 +591,8 @@ ja:
       unhappy: "何かご不満ですか。"
       update: "更新"
     new:
-#      hey_make: "Welcome to"
-#      diaspora: "Diaspora-Japan（ディアスポラ・ジャパン）"
+#      hey_make: "Welcome to<br/>diaspora-japan!"
+#      diaspora: "さらなる個人情報・セキュリティ保護機能をカスタマイズ済み."
 #      continue: "登録"
       create_my_account: "Create my account"
       email: "メール"
