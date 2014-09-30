@@ -221,6 +221,7 @@ ja:
     create:
       fail: "無効なメッセージです。"
       sent: "メッセージを送信しました"
+      no_contact: "一つ以上の有効な宛先をまず追加して下さい"
     destroy:
       success: "会話を削除するのに成功しました。"
     helper:
@@ -449,7 +450,23 @@ ja:
       subject: "Please activate your new e-mail address %{unconfirmed_email}"
     email_sent_by_diaspora: "このEメールは%{pod_name}から送信されました。もしこのようなEメールの受信を拒否したい場合は、"
     hello: "%{name}さん、こんにちは！"
-    invited_you: "%{name}さんがダイアスポラ*に招待しています。"
+    invited_you: "%{name}さんからの招待状"
+    invite:
+      message: |-
+        Hello!
+
+        あなたは diaspora* に招待されています!
+
+        以下のリンクをクリックしてユーザー登録して下さい。
+
+        [%{invite_url}][1]
+
+
+        Love,
+
+        diaspora* からの自動送信メール
+
+        [1]: %{invite_url}
     liked:
       liked: "%{name} has just liked your post: "
       view_post: "投稿を見る >"
@@ -622,7 +639,9 @@ ja:
       unhappy: "何かご不満ですか。"
       update: "更新"
     new:
-      continue: "続ける"
+      hey_make: "Welcome to<br/>diaspora-japan!"
+      diaspora: "さらなる個人情報・セキュリティ保護機能をカスタマイズ済み."
+      continue: "登録"
       create_my_account: "Create my account"
       email: "メール"
       enter_email: "メールアドレスを入力してください。"
@@ -859,10 +878,14 @@ ja:
       your_email: "メールアドレス"
       your_handle: "ダイアスポラのユーザ名"
     getting_started:
+      well_hello_there: "Welcome to Diaspora-Japan!"
+      community_welcome: "【お願い】Diaspora-Japanからの通知メールが迷惑メールに分類されることがあるのでご注意下さい。"
+      awesome_take_me_to_diaspora: "Start!"
       connect_to_facebook_link: "Facebookアカウントとの連携"
-      hashtag_suggestions: "#art, #movies, #gif などのようなタグをフォローしてみましょう。"
+      hashtag_explanation: "興味のあるハッシュタグをフォローしよう。これは後から設定できるのでここでは省略できます。"
+      hashtag_suggestions: "例: #art, #movies, #gif"
       saved: "保存しました！"
-      what_are_you_in_to: "何に興味がありますか?"
+      what_are_you_in_to: "何に興味がありますか?（省略可能）"
       who_are_you: "あなたは誰ですか？"
     privacy_settings:
       ignored_users: "無視したユーザー"

@@ -343,10 +343,8 @@ en:
       my_contacts: "My Contacts"
       all_contacts: "All Contacts"
       only_sharing_with_me: "Only sharing with me"
-      add_contact: "Add contact"
-      remove_contact: "Remove contact"
+      remove_person_from_aspect: "Remove %{person_name} from \"%{aspect_name}\""
       many_people_are_you_sure: "Are you sure you want to start a private conversation with more than %{suggested_limit} contacts? Posting to this aspect may be a better way to contact them."
-      user_search: "User Search"
     spotlight:
       community_spotlight: "Community Spotlight"
       suggest_member: "Suggest a member"
@@ -379,7 +377,7 @@ en:
     create:
       sent: "Message sent"
       fail: "Invalid message"
-      no_contact: "Hey, you need to add the contact first!"
+      no_contact: "Hey, you need to add a valid contact to \"to\" first!"
     new_conversation:
       fail: "Invalid message"
     destroy:
@@ -971,8 +969,8 @@ en:
       enter_username: "Pick a username (only letters, numbers, and underscores)"
       enter_password: "Enter a password (six character minimum)"
       enter_password_again: "Enter the same password as before"
-      hey_make: "HEY,<br/>MAKE<br/>SOMETHING."
-      diaspora: "<3 diaspora*"
+      hey_make: "Welcome to<br/>diaspora-japan!"
+      diaspora: "with security/privacy-improve customizations."
       sign_up: "SIGN UP"
       email: "EMAIL"
       username: "USERNAME"
@@ -1161,7 +1159,10 @@ en:
       no_message_to_display: "No message to display."
     destroy:
       failure: "Failed to delete post"
-    too_long: "Please make your status message fewer than %{count} characters. Right now it is %{current_length} characters"
+    too_long:
+      zero: "please make your status messages less than %{count} characters"
+      one: "please make your status messages less than %{count} characters"
+      other: "please make your status messages less than %{count} characters"
 
   stream_helper:
     show_comments:
