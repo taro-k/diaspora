@@ -6,8 +6,7 @@ module NotificationMailers
     def set_headers(like_id)
       @like = Like.find(like_id)
 
-      @headers[:subject] = "[Diaspora-Japan] You've got liked"
-      #@headers[:subject] = I18n.t('notifier.liked.liked', :name => @sender.name)
+      @headers[:subject] = "[#{AppConfig.settings.pod_name}] You've got liked"
     end
   end
 end

@@ -7,8 +7,7 @@ module NotificationMailers
     def set_headers(reshare_id)
       @reshare = Reshare.find(reshare_id)
 
-      @headers[:subject] = "[Diaspora-Japan] Your post has been reshared"
-      #@headers[:subject] = I18n.t('notifier.reshared.reshared', :name => @sender.name)
+      @headers[:subject] = "[#{AppConfig.settings.pod_name}] Your post has been reshared"
     end
   end
 end

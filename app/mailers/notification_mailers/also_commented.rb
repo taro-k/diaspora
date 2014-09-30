@@ -13,7 +13,8 @@ module NotificationMailers
         else
           @headers[:subject] = I18n.t("notifier.also_commented.limited_subject")
         end
-        @headers[:subject] = "[Diaspora-Japan] You've got a comment"
+        @headers[:from] = "#{AppConfig.mail.sender_address}"
+        @headers[:subject] = "[#{AppConfig.settings.pod_name}] You've got a comment"
       end
     end
 
