@@ -7,9 +7,9 @@ module NotificationMailers
       @conversation = @message.conversation
       @participants = @conversation.participants
 
-      @headers[:from] = "\"#{AppConfig.mail.sender_address}\" <#{AppConfig.mail.sender_address}>"
-      @headers[:subject] = "[Diaspora-Japan] You've got a message"
-      @headers[:subject] = "[Diaspora-Japan] You've got a reply message" if @conversation.messages.size > 1
+      @headers[:from] = "#{AppConfig.mail.sender_address}"
+      @headers[:subject] = "[#{AppConfig.settings.pod_name}] You've got a message"
+      @headers[:subject] = "[#{AppConfig.settings.pod_name}] You've got a reply message" if @conversation.messages.size > 1
     end
   end
 end

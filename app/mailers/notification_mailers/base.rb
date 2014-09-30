@@ -36,10 +36,11 @@ module NotificationMailers
       headers = {
         from: AppConfig.mail.sender_address.get,
         host: "#{AppConfig.pod_uri.host}",
-        to:   name_and_address(@recipient.name, @recipient.email)
+#        to:   name_and_address(@recipient.name, @recipient.email)
+        to:   @recipient.email
       }
 
-      headers[:from] = "\"#{AppConfig.mail.sender_address}\" <#{AppConfig.mail.sender_address}>" if @sender.present?
+      headers[:from] = "#{AppConfig.mail.sender_address}" if @sender.present?
 
       headers
     end
