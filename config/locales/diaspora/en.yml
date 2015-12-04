@@ -746,26 +746,26 @@ en:
         subject: "A message about your diaspora* account:"
         admin: "Your diaspora* administrator"
     started_sharing:
-        subject: "%{name} started sharing with you on diaspora*"
-        sharing: "has started sharing with you!"
-        view_profile: "View %{name}’s profile"
+        subject: "Someone started sharing with you on diaspora*"
+        sharing: "Someone has started sharing with you!"
+        view_profile: "View the profile >"
     comment_on_post:
         limited_subject: "There's a new comment on one of your posts"
-        reply: "Reply or view %{name}’s post >"
+        reply: "Reply or view post >"
     also_commented:
         limited_subject: "There's a new comment on a post you commented"
     mentioned:
-        subject: "%{name} has mentioned you on diaspora*"
-        mentioned: "mentioned you in a post:"
+        subject: "You has been mentioned on diaspora*"
+        mentioned: "Someone mentioned you in a post:"
         limited_post: "You were mentioned in a limited post."
     private_message:
         reply_to_or_view: "Reply to or view this conversation >"
     liked:
-        liked: "%{name} liked your post"
-        limited_post: "%{name} liked your limited post"
+        liked: "Someone liked your post"
+        limited_post: "Someone liked your limited post"
         view_post: "View post >"
     reshared:
-        reshared: "%{name} reshared your post"
+        reshared: "Someone reshared your post"
         view_post: "View post >"
     confirm_email:
         subject: "Please activate your new email address %{unconfirmed_email}"

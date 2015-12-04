@@ -435,24 +435,11 @@ ja:
         diaspora* からの自動送信メール
 
         [1]: %{invite_url}
-    liked:
-      liked: "%{name} has just liked your post: "
-      view_post: "投稿を見る >"
-    mentioned:
-      mentioned: "さんは投稿であなたをメンションしました。"
-      subject: "%{name}さんはダイアスポラ＊であなたをメンションしました。"
     report_email:
       subject: "%{type}が新しく攻撃的だとマークされました"
-    reshared:
-      reshared: "%{name} just reshared your post"
-      view_post: "投稿を見る >"
     single_admin:
       admin: "ダイアスポラ＊管理者"
       subject: "ダイアスポラ＊アカウントの重要なお知らせ："
-    started_sharing:
-      sharing: "あなたへの共有を開始しています!"
-      subject: "%{name} has started sharing with you on Diaspora*"
-      view_profile: "%{name}さんのプロフィールを見る"
     thanks: "ありがとうございます。"
     to_change_your_notification_settings: "通知設定を変更します"
   nsfw: "NSFW (職場での閲覧注意)"
