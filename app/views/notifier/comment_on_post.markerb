@@ -1,5 +1,5 @@
 <%#= comment_message(@notification.comment, :process_newlines => true) %>
 
-[<%= t('.view_post') %>][1]
+[View post >][1]
 
 [1]: <%= post_url(@notification.comment.post) %>
