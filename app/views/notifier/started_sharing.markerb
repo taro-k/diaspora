@@ -1,4 +1,4 @@
-<%= @notification.sender_name %> <%= t('.sharing') %>
+<%#= @notification.sender_name %> <%#= t('.sharing') %>
 
 [<%= t('.view_profile', :name => @notification.sender_first_name) %>][1]
 
